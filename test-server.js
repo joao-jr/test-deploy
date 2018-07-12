@@ -7,7 +7,7 @@ app.use(express.static('public'));
 // viewed at http://localhost:8080
 app.get('/', function(req, res) {
 
-    res.send("Hello 2!!");
+    res.send("Hello 3!!");
 });
 
 app.listen(8080, function () {
